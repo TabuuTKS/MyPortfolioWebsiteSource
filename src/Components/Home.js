@@ -12,6 +12,14 @@ const cards = [
     },
     {
         id: 2,
+        title: "Codename: Infinite Space",
+        content:
+            "A 2.5D Infinite Scroller Game made In Unity",
+        image: "CodenameInfiniteSpace.jpg",
+        link: "https://github.com/TabuuTKS/Codename-Infinite-Space",
+    },
+    {
+        id: 2,
         title: "Pick The Lock",
         content:
             "Pick The Lock, A Game About Picking Lock, With 3 Levels",

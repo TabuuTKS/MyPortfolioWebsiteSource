@@ -10,15 +10,30 @@ const projects = [
       "A 2D sci-fi platformer where an alien crash-lands on a hostile, uninhabitable planet. With the atmosphere against him and no sign of help, his only chance of survival is to gather essential resources, find his missing spaceship parts, and escape the planet before it's too late.",
     technologies: ["Unity", "C#", "Tilemaps", "Platformer Physics"],
     github: "https://github.com/TabuuTKS/Codename-Alien",
+    play: "#",
+    download: "#",
   },
   {
     id: 2,
+    title: "Codename Infinite Space",
+    image: "CodenameInfiniteSpace.jpg",
+    description:
+      "A 2.5D Infinite Scroller Game made In Unity",
+    technologies: ["Unity 3D", "C#"],
+    github: "https://github.com/TabuuTKS/Codename-Infinite-Space",
+    play: "https://tabuutks.github.io/Codename-Infinite-Space-Builds/index.html",
+    download: "https://github.com/TabuuTKS/Codename-Infinite-Space-Builds",
+  },
+  {
+    id: 3,
     title: "Pick The Lock",
     image: "PickTheLock.jpg",
     description:
       "A Game About Picking Lock, With 3 Levels of difficulty. a lockpicker rotates and you have to press space at picking points to pick the lock.",
     technologies: ["Unity", "C#"],
     github: "https://github.com/TabuuTKS/Pick-The-Lock",
+    play: "#",
+    download: "#",
   },
 ];
 
@@ -71,9 +86,25 @@ export function Projects() {
               href={projects[current].github}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary"
+              className="btn btn-primary mx-1"
             >
               View on GitHub
+            </a>
+            <a
+              href={projects[current].play}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary mx-1"
+            >
+              Play
+            </a>
+            <a
+              href={projects[current].download}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary mx-1"
+            >
+              Download
             </a>
           </div>
         </div>
