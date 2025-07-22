@@ -21,8 +21,8 @@ const projects = [
       "A 2.5D Infinite Scroller Game made In Unity",
     technologies: ["Unity 3D", "C#"],
     github: "https://github.com/TabuuTKS/Codename-Infinite-Space",
-    play: "https://tabuutks.github.io/Codename-Infinite-Space-Builds/index.html",
-    download: "https://github.com/TabuuTKS/Codename-Infinite-Space-Builds",
+    play: "https://tabuutks.github.io/Codename-Infinite-Space-by-TabuuTKS-v0.1-Builds",
+    download: "https://github.com/TabuuTKS/Codename-Infinite-Space-by-TabuuTKS-v0.1-Builds",
   },
   {
     id: 3,
