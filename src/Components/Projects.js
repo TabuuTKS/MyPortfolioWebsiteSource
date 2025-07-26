@@ -4,6 +4,17 @@ import './Home.css'
 const projects = [
   {
     id: 1,
+    title: "Stellarria: Asteroid Escape",
+    image: "CodenameInfiniteSpace.jpg",
+    description:
+      "Codename Infinite Space is Now Stellarria: Asteroid Escape, A 2.5D endless runner set in deep space. Explore The New Game. Note:- if You Can't see 3D Graphics on WebGL then WebGL2 and some of it's components Might Not Be Suppoted on your device. download native build and play",
+    technologies: ["Unity 3D", "C#"],
+    github: "https://github.com/TabuuTKS/Codename-Infinite-Space",
+    play: "https://tabuutks.github.io/Codename-Infinite-Space-by-TabuuTKS-v0.1-Builds",
+    download: "https://github.com/TabuuTKS/Codename-Infinite-Space-by-TabuuTKS-v0.1-Builds",
+  },
+  {
+    id: 2,
     title: "Codename Alien",
     image: "https://github.com/TabuuTKS/Codename-Alien/raw/main/Docs/DemoLevel.jpg",
     description:
@@ -12,17 +23,6 @@ const projects = [
     github: "https://github.com/TabuuTKS/Codename-Alien",
     play: "#",
     download: "#",
-  },
-  {
-    id: 2,
-    title: "Codename Infinite Space",
-    image: "CodenameInfiniteSpace.jpg",
-    description:
-      "A 2.5D Infinite Scroller Game made In Unity",
-    technologies: ["Unity 3D", "C#"],
-    github: "https://github.com/TabuuTKS/Codename-Infinite-Space",
-    play: "https://tabuutks.github.io/Codename-Infinite-Space-by-TabuuTKS-v0.1-Builds",
-    download: "https://github.com/TabuuTKS/Codename-Infinite-Space-by-TabuuTKS-v0.1-Builds",
   },
   {
     id: 3,

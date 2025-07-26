@@ -4,19 +4,19 @@ import './Home.css'
 const cards = [
     {
         id: 1,
+        title: "Stellarria: Asteroid Escape",
+        content:
+            "Codename Infinite Space is Now Stellarria: Asteroid Escape, A 2.5D endless runner set in deep space",
+        image: "CodenameInfiniteSpace.jpg",
+        link: "https://github.com/TabuuTKS/Codename-Infinite-Space",
+    },
+    {
+        id: 2,
         title: "Codename: Alien",
         content:
             "Codename: Alien, a 2D sci-fi platformer project which is ongoing",
         image: "https://github.com/TabuuTKS/Codename-Alien/raw/main/Docs/DemoLevel.jpg",
         link: "https://github.com/TabuuTKS/Codename-Alien",
-    },
-    {
-        id: 2,
-        title: "Codename: Infinite Space",
-        content:
-            "A 2.5D Infinite Scroller Game made In Unity",
-        image: "CodenameInfiniteSpace.jpg",
-        link: "https://github.com/TabuuTKS/Codename-Infinite-Space",
     },
     {
         id: 2,
